@@ -1,0 +1,32 @@
+{
+  "name": "dispy",
+  "version": "0.0.1",
+  "description": "Flux Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/orodio/dispy"
+  },
+  "keywords": [
+    "flux",
+    "dispatcher",
+    "react"
+  ],
+  "author": "orodio",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/orodio/dispy/issues"
+  },
+  "homepage": "https://github.com/orodio/dispy",
+  "dependencies": {
+    "6to5-core": "^3.3.12",
+    "flux": "^2.0.1",
+    "object-assign": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.2.2"
+  }
+}
